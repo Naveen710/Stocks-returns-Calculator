@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap');
+
+:root {
+    --bg-color: #6c737d;
+    --btn-bg-color: #283143;
+    --text-btn: #f3f4f6;
+}
+
+body {
+    
+    text-align: center;
+    margin: 5em auto;
+    background-color: var(--btn-bg-color);
+    color: var(--text-btn);
+}
+
+#container {
+    width: 20%;
+    margin: auto;
+    
+}
+
+h1 {
+    text-align: center;
+    margin: 1.5rem;
+    color: var(--text-btn);
+    font-size: 3rem;
+    text-indent: 0.1em;
+
+
+}
+
+
+input,
+label{
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+    font-size: 1rem;
+    text-align: left;
+    border-radius: 0.4rem;
+
+
+}
+#check-btn{
+    font-size: 1.2rem;
+    border-radius: 3px;
+    border: none;
+    text-align: center;
+    margin-top: 0.5rem;
+	margin-right :6rem;
+
+}
+#output {
+    display: block;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.8rem;
+    margin: 1.2rem;
+}
